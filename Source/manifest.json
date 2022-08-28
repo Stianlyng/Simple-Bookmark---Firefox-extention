@@ -1,0 +1,22 @@
+{
+  "description": "Adds browser action icon that works like a bookmark",
+  "manifest_version": 2,
+  "name": "Simple GitHub Bookmark",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/favicon.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": "icons/favicon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "githubsign@example.com"
+    }
+  }
+}
